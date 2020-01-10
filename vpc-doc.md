@@ -11,6 +11,17 @@
 + [Deleting Your VPC](#VPC_Deleting)
 
 ## Creating a VPC<a name="Create-VPC"></a>
+
+1. Open the Amazon VPC console at [https://console\.aws\.amazon\.com/vpc/](https://console.aws.amazon.com/vpc/)\.
+
+1. In the navigation pane, choose **Your VPCs**, **Create VPC**\.
+
+1. Specify the following VPC details as necessary and choose **Create**\. 
+   + **Name tag**: Optionally provide a name for your VPC\.
+   + **IPv4 CIDR block**: Specify an IPv4 CIDR block for the VPC\. We recommend that you specify a CIDR block from the private \(non\-publicly routable\) IP address ranges as specified in [RFC 1918](http://www.faqs.org/rfcs/rfc1918.html); for example, `10.0.0.0/16`, or `192.168.0.0/16`\. 
+   + **IPv6 CIDR block**: Optionally associate an IPv6 CIDR block with your VPC by choosing **Amazon\-provided IPv6 CIDR block**\. If not required, select **No IPv6 CIDR Block**\.
+  + **Tenancy**: Please keep **Tenancy as Default**\. 
+
 1.	Open the Amazon VPC console at https://console.aws.amazon.com/vpc/.
 2.	In the navigation pane , choose Your VPCs, Create VPC.
 3.	Specify the following VPC details as necessary and choose Create.

@@ -50,7 +50,8 @@ You can optionally specify an IPv6 CIDR block for your subnet if an IPv6 CIDR bl
 
 1. Choose **Add IPv4 CIDR**, and enter the CIDR block to add; for example, `10.2.0.0/16`\. Choose the tick icon\.
 
-1. Choose **Close**\.
+1. Choose **Close**.
+ 
  After you've associated a CIDR block, the status goes to `associating`\. The CIDR block is ready to use when it's in the `associated`     state\.
 
 

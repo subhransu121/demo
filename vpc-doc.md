@@ -2,13 +2,7 @@
 + [Creating a VPC](#Create-VPC)
 + [Creating a Subnet in Your VPC](#AddaSubnet)
 + [Associating a Secondary IPv4 CIDR Block with Your VPC](#add-ipv4-cidr)
-+ [Associating an IPv6 CIDR Block with Your VPC](#vpc-associate-ipv6-cidr)
-+ [Associating an IPv6 CIDR Block with Your Subnet](#subnet-associate-ipv6-cidr)
-+ [Launching an Instance into Your Subnet](#VPC_Launch_Instance)
-+ [Deleting Your Subnet](#subnet-deleting)
-+ [Disassociating an IPv4 CIDR Block from Your VPC](#remove-ipv4-cidr)
-+ [Disassociating an IPv6 CIDR Block from Your VPC or Subnet](#vpc-subnet-disassociate-ipv6)
-+ [Deleting Your VPC](#VPC_Deleting)
+
 
 ## Creating a VPC<a name="Create-VPC"></a>
 

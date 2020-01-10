@@ -3,6 +3,8 @@
 + [Creating a Subnet in Your VPC](#AddaSubnet)
 + [Associating a Secondary IPv4 CIDR Block with Your VPC](#add-ipv4-cidr)
 + [Creating and Attaching an Internet Gateway](#Add_IGW_Attach_Gateway)
++ [VPC Peering with DX VPC](#DX-VPC)
+
 
 
 ## Creating a VPC<a name="Create-VPC"></a>
@@ -69,5 +71,8 @@ You can optionally specify an IPv6 CIDR block for your subnet if an IPv6 CIDR bl
 
 1. Select your VPC from the list, and then choose **Attach**\.
 
+## VPC Peering with DX VPC<a name="DX-VPC"></a>
+
+Whenever you receive a request for **DX VPC** with either **Non-DX VPC** or with another **DX VPC** , then it should be reviewed by dwarika or David hocky. Once its approved by them , we are good to proceed. 
 
 

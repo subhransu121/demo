@@ -2,6 +2,7 @@
 + [Creating a VPC](#Create-VPC)
 + [Creating a Subnet in Your VPC](#AddaSubnet)
 + [Associating a Secondary IPv4 CIDR Block with Your VPC](#add-ipv4-cidr)
++ [Creating and Attaching an Internet Gateway](#Add_IGW_Attach_Gateway)
 
 
 ## Creating a VPC<a name="Create-VPC"></a>
@@ -54,7 +55,19 @@ You can optionally specify an IPv6 CIDR block for your subnet if an IPv6 CIDR bl
  
  After you've associated a CIDR block, the status goes to `associating`\. The CIDR block is ready to use when it's in the `associated`     state\.
 
+### Creating and Attaching an Internet Gateway<a name="Add_IGW_Attach_Gateway"></a>
 
+**To create an internet gateway and attach it to your VPC**
+
+1. Open the Amazon VPC console at [https://console\.aws\.amazon\.com/vpc/](https://console.aws.amazon.com/vpc/)\.
+
+1. In the navigation pane, choose **Internet Gateways**, and then choose **Create internet gateway**\.
+
+1. Optionally name your internet gateway, and then choose **Create**\.
+
+1. Select the internet gateway that you just created, and then choose **Actions, Attach to VPC**\.
+
+1. Select your VPC from the list, and then choose **Attach**\.
 
 
 
